@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Menu App with ContextAPI
+
+In the project, all menu items are used by ContextAPI on the menu page. I also created a group of category buttons to filter the menu items. Category buttons are dynamic which means if you add a new category to your menu, a new button is going to appear at the top of the menu.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
