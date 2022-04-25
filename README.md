@@ -1,4 +1,5 @@
 # Menu App with ContextAPI
+![npm](https://img.shields.io/badge/npm-8.1.2-green)
 
 In the project, all menu items are used by ContextAPI on the menu page. I also created a group of category buttons to filter the menu items. Category buttons are dynamic which means if you add a new category to your menu, a new button is going to appear at the top of the menu.
 
