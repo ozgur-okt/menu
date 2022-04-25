@@ -3,6 +3,11 @@
 In the project, all menu items are used by ContextAPI on the menu page. I also created a group of category buttons to filter the menu items. Category buttons are dynamic which means if you add a new category to your menu, a new button is going to appear at the top of the menu.
 
 
+https://user-images.githubusercontent.com/73358116/165073218-848be1d5-e0b5-4a57-bdfd-aa391ecfd1cf.mp4
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
