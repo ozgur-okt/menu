@@ -13,13 +13,11 @@ function Menu() {
 
     useEffect(() => {
         setFiltredMenu(menu);
-
     }, []);
 
     const cats = menu.map(q => q.category);
 
-    const category = cats.filter((q, idx) => cats.indexOf(q) === idx)
-        ;
+    const category = cats.filter((q, idx) => cats.indexOf(q) === idx);
 
     function handleMenu(e) {
         e.target.value !== "all"
@@ -28,12 +26,9 @@ function Menu() {
     }
 
     return (
-
-
         <>
             <div className="container">
-                <h1>Our Menu</h1>
-                
+                <h1>Our Menu</h1>                
                 <FontAwesomeIcon icon={ faBowlFood } className="icon" />
                 <div className="btn-box">
                     <button value="all" onClick={handleMenu}>All</button>
@@ -47,7 +42,6 @@ function Menu() {
                 </div>
                 <div className="menu">
                     {filtredMenu.map((item) =>
-
                         <div key={item.id} className="card">
                             <img src={item.src} alt="image" />
                             <div className="info">
@@ -57,7 +51,6 @@ function Menu() {
                                 <div className="category">
                                     {item.category}
                                 </div>
-
                                 <div className="desc">
                                     {item.desc}
                                 </div>
@@ -66,13 +59,10 @@ function Menu() {
                                 </div>
                             </div>
                         </div>
-
                     )}
                 </div>
             </div>
         </>
-
-
     )
 }
 
